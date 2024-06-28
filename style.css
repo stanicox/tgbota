@@ -17,6 +17,11 @@ body {
     width:100%;
     padding: 20px;
     text-align: center;
+    display: block;
+}
+
+#profile {
+    display: none;
 }
 
 h1 {

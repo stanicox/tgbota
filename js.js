@@ -4,12 +4,11 @@ let usercard = document.getElementById("usercard"); //получаем блок 
 
 let profName = document.createElement('p'); //создаем параграф
 profName.innerText = `${tg.initDataUnsafe.user.first_name}
-${tg.initDataUnsafe.user.last_name}
-${tg.initDataUnsafe.user.username} (${tg.initDataUnsafe.user.language_code})`;
+${tg.initDataUnsafe.user.last_name}`;
 //выдем имя, "фамилию", через тире username и код языка
 usercard.appendChild(profName); //добавляем 
 
 let userid = document.createElement('p'); //создаем еще параграф 
-userid.innerText = `${tg.initDataUnsafe.user.id}`; //показываем user_id
+userid.innerText = `@``${tg.initDataUnsafe.user.username}`; //показываем user_id
 usercard.appendChild(userid); //добавляем
 

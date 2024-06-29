@@ -53,6 +53,9 @@ main h2 span {
     transition: border 0.3s ease-in-out
 }
 
+.category:active {
+    border: 1px solid #00BFFF;
+}
 .category:hover {
     border: 1px solid #00BFFF;
 }

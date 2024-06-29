@@ -13,6 +13,6 @@ userid.innerText = `@${tg.initDataUnsafe.user.username}`; //показываем
 usercard.appendChild(userid); //добавляем
 
 let profilepic = document.createElement('img')
-profilepic.src = `https://ui-avatars.com/api/?name=${tg.initDataUnsafe.user.username}`
+profilepic.src = `https://t.me/i/userpic/320/${tg.initDataUnsafe.user.userid}.jpg`;
 usercard.appendChild(profilepic); //добавляем
 

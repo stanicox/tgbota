@@ -12,3 +12,6 @@ let userid = document.createElement('p'); //создаем еще парагра
 userid.innerText = `@${tg.initDataUnsafe.user.username}`; //показываем user_id
 usercard.appendChild(userid); //добавляем
 
+let profilepic = document.createElement('img')
+profilepic.src = `https://ui-avatars.com/api/?name=${tg.initDataUnsafe.user.username}`
+

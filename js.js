@@ -9,6 +9,6 @@ ${tg.initDataUnsafe.user.last_name}`;
 usercard.appendChild(profName); //добавляем 
 
 let userid = document.createElement('p'); //создаем еще параграф 
-userid.innerText = `@``${tg.initDataUnsafe.user.username}`; //показываем user_id
+userid.innerText = `@${tg.initDataUnsafe.user.username}`; //показываем user_id
 usercard.appendChild(userid); //добавляем
 
